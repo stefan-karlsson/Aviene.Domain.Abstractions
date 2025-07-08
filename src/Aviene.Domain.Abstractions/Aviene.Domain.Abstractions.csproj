@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Aviene.Domain.Abstractions</AssemblyName>
+        <PackageId>Aviene.Domain.Abstractions</PackageId>
+        <Title>Aviene.Domain.Abstractions</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Stefan Karlsson (@stefan-karlsson)</Authors>
+        <Company>stefan-karlsson.se</Company>
+        <Description>An opiniated project/package for use with Aviene.CleanArchitecture template.</Description>
+        <Summary>An opiniated project/package for use with Aviene.CleanArchitecture template</Summary>
+        <PackageProjectUrl>https://github.com/stefan-karlsson/Aviene.Domain.Abstractions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/stefan-karlsson/Aviene.Domain.Abstractions</RepositoryUrl>
+        <PackageTags>DDD;Shared Kernel;SharedKernel;Domain-Driven Design;ValueObject;Value Object;Aviene;Clean;Clean Architecture</PackageTags>
+        <PackageIcon>icon.png</PackageIcon>
+        <Version>1.0.0</Version>
+        <PackageReleaseNotes>
+            * Net9
+        </PackageReleaseNotes>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+        <DocumentationFile>bin\$(Configuration)\Aviene.Domain.Abstractions.xml</DocumentationFile>
+    </PropertyGroup>
+  
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" />
+    </ItemGroup>
+
+</Project>
