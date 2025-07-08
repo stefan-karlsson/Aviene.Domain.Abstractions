@@ -27,4 +27,8 @@
     <PackageReference Include="JetBrains.Annotations"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath=""/>
+  </ItemGroup>
+
 </Project>
