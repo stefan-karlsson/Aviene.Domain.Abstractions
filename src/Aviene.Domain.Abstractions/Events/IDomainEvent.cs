@@ -1,6 +1,4 @@
-using JetBrains.Annotations;
-
-namespace Aviene.Domain.Abstractions;
+namespace Aviene.Domain.Abstractions.Events;
 
 /// <summary>
 ///   Represents a domain event that signals a significant change or occurrence within the domain model.
